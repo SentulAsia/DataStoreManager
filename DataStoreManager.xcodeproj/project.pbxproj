@@ -225,11 +225,11 @@
 				ORGANIZATIONNAME = "Zaid M. Said";
 				TargetAttributes = {
 					2E33C51E213836E2007FB33D = {
-						CreatedOnToolsVersion = 10.2.1;
+						CreatedOnToolsVersion = 6.0.0;
 						LastSwiftMigration = 1020;
 					};
 					2E33C527213836E2007FB33D = {
-						CreatedOnToolsVersion = 10.2.1;
+						CreatedOnToolsVersion = 6.0.0;
 						LastSwiftMigration = 1020;
 					};
 				};
@@ -433,67 +433,6 @@
 			};
 			name = Release;
 		};
-		2E33C534213836E2007FB33D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = C8C5YY57VR;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = YES;
-				INFOPLIST_FILE = DataStoreManager.xcodeproj/DataStoreManager_Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sentulasia.DataStoreManager;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "$(ARCHS_STANDARD)";
-			};
-			name = Debug;
-		};
-		2E33C535213836E2007FB33D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = C8C5YY57VR;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = YES;
-				INFOPLIST_FILE = DataStoreManager.xcodeproj/DataStoreManager_Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sentulasia.DataStoreManager;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "$(ARCHS_STANDARD)";
-			};
-			name = Release;
-		};
 		2E33C537213836E2007FB33D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -532,6 +471,29 @@
 			};
 			name = Release;
 		};
+		B8623CF722D909BE00B90552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = DataStoreManager.xcodeproj/DataStoreManager_Info.plist;
+				PRODUCT_NAME = DataStoreManager;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B8623CF822D909BE00B90552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = DataStoreManager.xcodeproj/DataStoreManager_Info.plist;
+				PRODUCT_NAME = DataStoreManager;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -547,8 +509,8 @@
 		2E33C533213836E2007FB33D /* Build configuration list for PBXNativeTarget "DataStoreManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E33C534213836E2007FB33D /* Debug */,
-				2E33C535213836E2007FB33D /* Release */,
+				B8623CF722D909BE00B90552 /* Debug */,
+				B8623CF822D909BE00B90552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
